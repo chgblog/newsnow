@@ -3,7 +3,7 @@ compatibility_date = "2025-03-16" # 与构建日志中的日期一致
 account_id = "0aff2482de054da21c9e685201c20715" # 替换为你的 Cloudflare 账户 ID
 
 [functions]
-directory = "dist/output/public" # 指向 Nitro 生成的 server 目录
+directory = "dist/output/server" # 指向 Nitro 生成的 server 目录
 
 [[routes]]
 pattern = "/*"   # 所有请求都由 Function 处理
